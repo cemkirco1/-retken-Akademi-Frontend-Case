@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    transition: 0.8s all;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #fff;
+  }
+  .container {
+    width: 300px;
+  }
+  .result {
+    width: 59.1%;
+  }
+  input {
+      
+    padding: 25px;
+    color: rgb(252, 243, 243);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(85, 82, 82);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .fifth-row {
+    margin-bottom: 3px;
+  }
+  input[type="button"] {
+    color: rgb(240, 236, 236);
+    border-radius: 50%;
+  }
+  input[type="text"] {
+      
+    background-color: rgb(94, 92, 92);
+    border-radius: 50%;
+    width: 218px;
+  }
+  input[type="button"]:hover {
+    background-color: rgb(37, 35, 59);
+    color: #fff;
+  }
+  #clear {
+    color: #fff;
+    background-color: rgb(255, 25, 25);
+  }
+ 
+  
+  #minus,
+  #pluse,
+  #multiply,
+  #divided
+  {
+      background-color: coral;
+      border-radius: 50%;
+  }
+  
+
+  
+  a {
+    text-decoration: none;
+    border: none;
+    
+    padding: 2px;
+    color: black;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+ 
