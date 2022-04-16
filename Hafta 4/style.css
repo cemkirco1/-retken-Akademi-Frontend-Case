@@ -1,0 +1,29 @@
+h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#galeri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#galeri img{
+    object-fit: cover;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+
+}
