@@ -1,0 +1,11 @@
+.select{
+    border-radius: 10px;
+    margin-bottom: 14px;
+    
+    height: 33px;
+    text-align: center;
+}
+.main{
+    margin-top: 20px;
+    margin-left: 20px;
+}
